@@ -16,7 +16,7 @@ Program służący do dzielenia wartości z paragonu.
 ```console
 >.\vcpkg\vcpkg install tesseract:x64-windows
 ```
-3. Tworzymy integracje
+3. Tworzymy integracje do Visual Studio
 ```console
 > .\vcpkg\vcpkg integrate install
 ```
