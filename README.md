@@ -9,14 +9,14 @@ Program służący do dzielenia wartości z paragonu.
 
 1. Instalujemy vcpkg
 ```console
-cd C:/
-git clone https://github.com/microsoft/vcpkg
+> cd C:/
+> git clone https://github.com/microsoft/vcpkg
 ```
 2. Instalujemy tesseract
 ```console
-.\vcpkg\vcpkg install tesseract:x64-windows
+>.\vcpkg\vcpkg install tesseract:x64-windows
 ```
 3. Tworzymy integracje
 ```console
-.\vcpkg\vcpkg integrate install
+> .\vcpkg\vcpkg integrate install
 ```
