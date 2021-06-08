@@ -10,15 +10,15 @@ Program służący do dzielenia wartości z paragonu.
 !Uwaga wymagane jest zainstalowanie tesseract za pomocą vcpkg.
 
 1. Instalujemy vcpkg
-```console
+```cmd
 > cd C:/
 > git clone https://github.com/microsoft/vcpkg
 ```
 2. Instalujemy tesseract
-```console
+```cmd
 >.\vcpkg\vcpkg install tesseract:x64-windows
 ```
 3. Tworzymy integracje do Visual Studio
-```console
+```cmd
 > .\vcpkg\vcpkg integrate install
 ```
